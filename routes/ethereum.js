@@ -1,13 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
-const await = require('asyncawait/await');
-const async = require('asyncawait/async');
 const axios = require('axios');
 
 const BASE_URL = `https://api.blockcypher.com/v1/eth/main/addrs/`;
 
-const getBalance = async((req, res, next) => {
+const getBalance = async (req, res, next) => {
   try {
     const url = `${BASE_URL}${req.params.id}/balance`;
     const wallet_balance = await (axios.get(url));
@@ -31,7 +29,7 @@ const getBalance = async((req, res, next) => {
     res.status(status).send(statusText);
   }
 
-})
+}
 
 /* GET balance. */
 router.get('/balance/:id', getBalance);
