@@ -1,6 +1,7 @@
 # Simple Node app
 
-## Node version v10.24.1
+## Node version
+v12.x and later. NPM v7 and later
 
 ## Howto
 

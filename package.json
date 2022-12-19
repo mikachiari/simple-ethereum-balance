@@ -1,12 +1,12 @@
 {
   "name": "ethereum-balance",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.2.1",
     "body-parser": "^1.20.1",
     "cookie-parser": "~1.4.6",
     "debug": "~2.6.3",
