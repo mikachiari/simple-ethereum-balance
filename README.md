@@ -1,5 +1,7 @@
 # Simple Node app
 
+## Node version v10.24.1
+
 ## Howto
 
 * `npm install`
